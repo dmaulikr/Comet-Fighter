@@ -1,0 +1,49 @@
+
+
+
+
+Power Ups:
+Should 2 shield powerups at same time be ok?
+Remove b2body for power ups when player gets them?
+Make a bigger b2body for spiky shield?
+What happens if you get a power up while a power up you got previously is still scaling up?
+
+
+Todo:
+Finalize Power Ups
+iPad Support
+PLCrashReporter
+
+Long Term: 
+Multiplayer?
+
+
+
+
+Optimizations:
+Allow b2body sleeping for bodies that are not contacting, if possible
+	 (end contact is not called for sleeping bodies...)
+Don't check if player is dead every frame for every saved body
+	(make player call an function or at least only check once per frame)
+Clean up contactvar - removesprite
+	(add the sprite to a ccarray and delete it next update)
+Make Bullet and Rock Batches invisible if they are empty
+Sometimes the is not deallocated [LEAK]
+
+
+
+Death screen loading optimizations:
+
+Don't reload player, followvar, or gameoverlayvar when user clicks restart
+
+
+
+
+
+
+
+Modificatins to Cocos2d Internals:
+
+added ccDrawFilledCircle
+made pause button zoom more
+b2_maxPolygonVertices in libs/Box2d/Common/b2settings.h to 50
