@@ -19,5 +19,3 @@ Screenshots
 ![Screenshot 1](https://raw.githubusercontent.com/rysquash/Comet-Fighter/master/screenshots/IMG_2077.PNG)
 ![Screenshot 2](https://raw.githubusercontent.com/rysquash/Comet-Fighter/master/screenshots/IMG_2078.PNG)
 ![Screenshot 3](https://raw.githubusercontent.com/rysquash/Comet-Fighter/master/screenshots/IMG_2080.PNG)
-![Screenshot 4](https://raw.githubusercontent.com/rysquash/Comet-Fighter/master/screenshots/IMG_2081.PNG)
-
